@@ -1,0 +1,157 @@
+.carousel-item {
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item img {
+  display: none;
+}
+.carousel-inner .carousel-item:nth-child(1) {
+  background-image: url("/images/kamienica.jpg");
+}
+.carousel-inner .carousel-item:nth-child(2) {
+  background-image: url("/images/rury-hydraulika2.jpg");
+}
+.carousel-inner .carousel-item:nth-child(3) {
+  background-image: url("/images/rury-hydraulika.jpg");
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(64, 60, 60);
+  opacity: 0.5;
+}
+.carousel-caption {
+  bottom: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity ease-in-out 100ms, transform 200ms ease;
+  padding: 0;
+}
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateX(0);
+}
+.carousel-caption > h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.about__description {
+  margin-top: 2rem;
+}
+.about__image {
+  width: 100%;
+  max-width: 400px;
+  margin: 3rem auto;
+}
+.about__image-image {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 400px;
+  position: relative;
+  transition: hover 300ms ease-in;
+}
+.about__image-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#gSlideDesc_0,
+#gSlideDesc_1,
+#gSlideDesc_2,
+#gSlideDesc_3,
+#gSlideDesc_4,
+#gSlideDesc_5,
+#gSlideDesc_6,
+#gSlideDesc_7,
+#gSlideDesc_8,
+#gSlideDesc_9,
+#gSlideDesc_10,
+#gSlideDesc_11,
+#gSlideDesc_12 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+.presentation {
+  text-align: center;
+  margin: 4rem auto;
+}
+.presentation__clip {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+.presentation__clip img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reviews__heading {
+  text-align: center;
+  margin: 3rem 0 1.6rem;
+}
+@media screen and (min-width: 769px) {
+  .carousel-caption > h5 {
+    font-size: 5rem;
+  }
+  .presentation {
+    margin-top: 12rem;
+  }
+  .presentation__heading {
+    font-size: 2.6rem;
+  }
+  .presentation__clip {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .carousel-caption > h5 {
+    font-size: 7rem;
+  }
+  .about {
+    display: flex;
+    margin-top: 6rem;
+  }
+  .about__description {
+    width: 60%;
+    padding-right: 2rem;
+    text-align: justify;
+  }
+  .about__image {
+    width: 33%;
+  }
+  .details__company {
+    margin-top: 10rem;
+  }
+  .reviews {
+    margin-top: 6rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about__image {
+    width: 30%;
+  }
+  .about__heading {
+    margin-bottom: 1.5rem;
+  }
+  @media screen and (min-width: 1400px) {
+    .carousel-caption > h5 {
+      font-size: 8rem;
+    }
+  }
+}

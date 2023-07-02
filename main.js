@@ -1,8 +1,8 @@
-const menuBtn = document.querySelector('.burger-btn');
-const menuBtnLines = document.querySelectorAll('.burger-btn > div')
+const menuBtn = document.querySelector('.header__burger');
+const menuBtnLines = document.querySelectorAll('.header__burger > div')
 const mobileNav = document.querySelector('.mobile-nav');
-const mobileNavList = [...document.querySelectorAll('.mobile-nav-ul > li')];
-const modalCookies = document.querySelector('.modal-cookies');
+const mobileNavList = [...document.querySelectorAll('.mobile-nav__list > li')];
+const modalCookies = document.querySelector('.modal__cookies');
 const btnCookies = document.getElementById('accept');
 
 function showAndHideMobileNav() {
@@ -35,24 +35,21 @@ window.addEventListener('load', cookiesModal);
 
 //  dropdown 
 
-const dropdown = document.querySelector(".mobile_nav--dropdown");
+const dropdown = document.querySelector(".mobile-nav__list .dropdown__item");
 const arrowIcon = document.querySelector(".fa-dropdown");
-const dropdownContent = document.querySelector('.dropdown_content');
+const dropdownContent = document.querySelector('.mobile-nav__list-dropdown');
 dropdown.addEventListener('click', () => {
    arrowIcon.classList.toggle('down');
    dropdownContent.classList.toggle('down');
    dropdown.classList.toggle('down')
+   console.log('click')
 })
 
+console.log(dropdown)
+console.log(dropdownContent)
 
 // phone icon scroll fx
 const phoneIconMobile = document.querySelector(".phone__icon");
-
-// window.addEventListener('load' , () => {
-//    setTimeout( () => {
-     
-//    }, 1000)
-// })
 
 window.addEventListener('scroll', () => {
    let currentScroll = window.scrollY;

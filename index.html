@@ -90,10 +90,8 @@
           <li class="main-nav__list-item">
             <a class="main-nav__link-item" href="/#o_firmie">o firmie</a>
           </li>
-          <!-- <div class="main_nav--dropdown"> -->
           <li class="main-nav__list-item dropdown__item">
             <a class="main-nav__link-item" href="/usługi.html">usługi</a>
-          </li>
           <ul class="main-nav__list-item dropdown__item-list">
             <li class="main-nav__list-item">
               <a
@@ -144,7 +142,7 @@
                 >osuszanie pomieszczeń po zalaniach</a
               >
             </li>
-            <li>
+            <li class="main-nav__list-item">
               <a
                 class="main-nav__link-item"
                 href="usługi/inne-usługi-wodno-kanalizacyje.html"
@@ -152,7 +150,7 @@
               >
             </li>
           </ul>
-          <!-- </div> -->
+        </li>
           <li class="main-nav__list-item">
             <a class="main-nav__link-item" href="/dotacje.html"
               >dotacje unijne</a
@@ -180,9 +178,11 @@
           <a class="mobile-nav__link-item" href="/#o_firmie">o firmie</a>
         </li>
         <li class="mobile-nav__list-item dropdown__item">
+          <div>
           <a class="mobile-nav__link-item" href="/usługi.html">usługi</a>
           <i class="fa-solid fa-chevron-down fa-dropdown"></i>
-          <ul class="mobile-nav__list-item dropdown__item-list">
+         </div>
+          <ul class="mobile-nav__list-dropdown dropdown__item-list">
             <li class="mobile-nav__list-item">
               <a
                 class="mobile-nav__link-item"
@@ -331,8 +331,8 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <section class="about" id="o_firmie">
-      <div class="about__description container">
+    <section class="about container" id="o_firmie">
+      <div class="about__description">
         <h1 class="about__heading heading__large">O firmie</h1>
         <p class="about__text text">
           Instalacje od A do Z Sp. z o.o. to firma rodzinna, która łączy
@@ -387,7 +387,7 @@
         </a>
       </div>
     </section>
-    <div class="presentation">
+    <div class="presentation container">
       <h2 class="presentation__heading heading__small">
         Krótki film opisujący czym zajmuje się nasza firma
       </h2>
@@ -437,45 +437,45 @@
       <h2 class="details__heading heading__small">
         Twoje profesjonalne usługi hydrauliczne w Krakowie
       </h2>
-      <ul class="details__list text">
-        <li class="details__list-item">
+      <ul class="details__list">
+        <li class="details__list-item text">
           Renowacja Rur Kanalizacyjnych - przywracamy starym, zarośniętym
           tłuszczem i kamieniem rurą kanalizacyjnym pierwotny stan bez
           konieczności rozkucia ścian, co pozwala na ich dalsze użytkowanie
           przez kolejne kilkadziesiąt lat.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Lokalizacja Wycieków - bezinwazyjna metoda pomagająca w dokładnym
           zlokalizowaniu wycieków z instalacji wodno-kanalizacyjnych, co
           minimalizuje szkody w budynkach i otoczeniu.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Monitoring Instalacji Kanalizacyjnej - pozwala na wykrywanie pęknięć i
           ubytków w rurociągu pionowym w budynkach mieszkalnych oraz w rurach
           przyłączeniowych do budynków, a także na określenie ryzyka powstawania
           zatorów.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Wykonanie Badań Termowizyjnych - umożliwia bezinwazyjne wykrycie
           wycieków z instalacji wodno-kanalizacyjnych, c.o. i ciepłej wody
           użytkowej lub kanalizacji, co minimalizuje potrzebę kucia ścian i
           posadzek.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Lokalizacja Instalacji Podziemnych - bezinwazyjna metoda pozwalająca
           na dokładne zlokalizowanie instalacji podziemnych, co jest niezbędne
           przy wykonywaniu prac budowlanych i modernizacyjnych.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Udrażnianie Instalacji Kanalizacyjnych - skuteczna metoda usuwania
           zatorów i innych zanieczyszczeń z instalacji kanalizacyjnych,
           umożliwiająca ich prawidłowe funkcjonowanie.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Osuszanie Pomieszczeń - usuwanie wilgoci i osuszanie pomieszczeń po
           zalaniach lub awariach wodno-kanalizacyjnych.
         </li>
-        <li class="details__list-item">
+        <li class="details__list-item text">
           Inne usługi wodno-kanalizacyjne - kompleksowa obsługa instalacji
           wodno-kanalizacyjnych, w tym montaż, naprawa, modernizacja i
           renowacja, a także inne prace hydrauliczne.
@@ -666,24 +666,25 @@
       <p class="phone__text">Zadzwoń</p>
     </div>
     <!--  -->
-    <div class="reviews">
+    <div class="reviews container">
+      <h2 class="reviews__heading heading__small">opinie klientów!</h2>
       <div class="sk-ww-google-reviews" data-embed-id="160521"></div>
     </div>
     <footer class="footer">
       <div class="footer__content">
         <p class="footer__copyright">
-          <span><i class="fa-solid fa-copyright"></i></span>2022 Instalacje od A
+          <span><i class="fa-solid fa-copyright"></i></span> 2022 Instalacje od A
           do Z. Wszystkie prawa zastrzeżone.
         </p>
         <ul class="footer__list">
           <li class="footer__list-item">
             <i class="fa-solid fa-mobile"></i
-            ><a href="tel:605-663-176">605-663-176</a>
+            ><a href="tel:605-663-176"> 605-663-176</a>
           </li>
           <li class="footer__list-item">
             <i class="fa-solid fa-at"></i
             ><a href="mailto: instalacje.az@gmail.com"
-              >instalacje.az@gmail.com</a
+              > instalacje.az@gmail.com</a
             >
           </li>
           <li class="footer__list-item">ul. Sołtyka 4</li>
