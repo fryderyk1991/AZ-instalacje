@@ -336,7 +336,7 @@ strong {
   .main-nav__list-item.dropdown__item-list {
     display: none;
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 0;
     z-index: 10;
     min-width: 600px;

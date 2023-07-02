@@ -1,0 +1,29 @@
+.contact {
+    margin-top: 8rem;
+}
+.contact__list-item > i,
+.contact__list-item > a {
+    color: var(--blue-color);
+}
+.contact__map-container {
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    margin: 4rem 0;
+}
+@media screen and (min-width: 992px) {
+    .contact {
+        display: flex;
+        align-items: center;
+    }
+    .contact__map-container {
+        width: 50%;
+    }
+    .contact__content {
+        width: 50%;
+        
+    }
+    .contact__heading {
+        margin-bottom: 2rem;
+    }
+}
