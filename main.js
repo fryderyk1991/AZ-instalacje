@@ -45,8 +45,6 @@ dropdown.addEventListener('click', () => {
    console.log('click')
 })
 
-console.log(dropdown)
-console.log(dropdownContent)
 
 // phone icon scroll fx
 const phoneIconMobile = document.querySelector(".phone__icon");

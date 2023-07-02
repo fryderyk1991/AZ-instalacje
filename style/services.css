@@ -10,7 +10,7 @@
 .services__heading > a:hover {
     color: var(--hover-btn);
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1100px) {
     .services__price {
         display: block;
         text-align: center;
