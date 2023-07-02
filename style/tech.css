@@ -141,7 +141,6 @@
         align-self: start;
         padding-right: 2rem;
         width: 60%;
-        text-align: justify;
     } 
     .tech__small-gallery {
         display: grid;

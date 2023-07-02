@@ -24,7 +24,7 @@ body {
   line-height: normal;
 }
 .container {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2.8rem;
 }
@@ -251,7 +251,6 @@ strong {
   color: white;
 }
 .footer {
-  min-height: 150px;
   background-color: var(--blue-color);
   padding: 3rem;
   color: white;
@@ -275,6 +274,7 @@ strong {
 }
 
 @media screen and (min-width: 769px) {
+  
   .footer__content {
     display: flex;
     justify-content: space-around;
