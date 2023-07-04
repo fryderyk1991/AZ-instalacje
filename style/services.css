@@ -1,16 +1,25 @@
 .services {
     margin-top: 8rem
 }
-.services__price {
-    display: none;
-}
 .services__heading > a {
     color: var(--blue-color);
 }
 .services__heading > a:hover {
     color: var(--hover-btn);
 }
-
+.services__price {
+    text-align: center;
+    margin: 2rem 0 5rem;
+}
+.price__item:nth-child(1) {
+    font-size: 2.5rem;
+}
+.price__item--link {
+      color: var(--blue-color); ;
+}
+.price__item--link:hover {
+    color: var(--hover-btn); ;
+}
 .services__content {
     margin-top: 6rem;
 }
@@ -41,22 +50,6 @@
     }
     
 }
-@media screen and (min-width: 1100px) {
-    .services__price {
-        display: block;
-        text-align: center;
-        margin: 5rem 0;
-    }
-    .price__item:nth-child(1) {
-        font-size: 2.5rem;
-    }
-    .price__item--link {
-          color: var(--blue-color); ;
-    }
-    .price__item--link:hover {
-        color: var(--hover-btn); ;
-  }
-}
 @media  screen and (min-width: 1200px) {
      .price__item {
       font-weight: 400;
@@ -64,5 +57,8 @@
     }
     .services__content {
         margin-top: 10rem;
+    }
+    .services__price {
+        margin: 5rem 0;
     }
   }
