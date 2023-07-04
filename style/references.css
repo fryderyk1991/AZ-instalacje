@@ -16,6 +16,13 @@
     height: 100%;
     object-fit: cover;
 }
+.reviews {
+    margin-top: 6rem;
+}
+.reviews__heading {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 @media screen and (min-width: 992px) {
     .references__content {
         display: flex;
