@@ -32,9 +32,6 @@ const cookiesModal = () => {
 
 window.addEventListener('load', cookiesModal);
 
-
-//  dropdown 
-
 const dropdown = document.querySelector(".mobile-nav__list .dropdown__item");
 const arrowIcon = document.querySelector(".fa-dropdown");
 const dropdownContent = document.querySelector('.mobile-nav__list-dropdown');
@@ -45,8 +42,6 @@ dropdown.addEventListener('click', () => {
    console.log('click')
 })
 
-
-// phone icon scroll fx
 const phoneIconMobile = document.querySelector(".phone__icon");
 
 window.addEventListener('scroll', () => {
