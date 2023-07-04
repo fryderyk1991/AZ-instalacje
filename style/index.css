@@ -68,23 +68,7 @@
   height: 100%;
   object-fit: cover;
 }
-#gSlideDesc_0,
-#gSlideDesc_1,
-#gSlideDesc_2,
-#gSlideDesc_3,
-#gSlideDesc_4,
-#gSlideDesc_5,
-#gSlideDesc_6,
-#gSlideDesc_7,
-#gSlideDesc_8,
-#gSlideDesc_9,
-#gSlideDesc_10,
-#gSlideDesc_11,
-#gSlideDesc_12 {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.6rem;
-  color: whitesmoke;
-}
+
 .presentation {
   text-align: center;
   margin: 4rem auto;
@@ -130,7 +114,6 @@
   .about__description {
     width: 60%;
     padding-right: 2rem;
-    text-align: justify;
   }
   .about__image {
     width: 33%;
