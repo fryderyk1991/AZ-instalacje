@@ -17,7 +17,6 @@ body {
 a:hover {
   color: var(--blue-color);
 }
-
 body {
   font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
@@ -137,6 +136,11 @@ body {
 }
 .header__main-nav {
   display: none;
+}
+.dropdown__button {
+  background: none;
+  border: none;
+  font-family: "Oswald", sans-serif;
 }
 .mobile-nav {
   width: 100%;
