@@ -2,6 +2,7 @@
   --red-color: #d40000;
   --blue-color: #0093dd;
   --hover-btn: rgb(44, 144, 251);
+  --hover-footer: rgb(235, 235, 235);
 }
 html {
   font-size: 62.5%;
@@ -270,6 +271,9 @@ strong {
 .footer__list-item > a {
   color: white;
 }
+.footer__list-item > a:hover {
+  color: var(--hover-footer);
+}
 .footer__fb {
   font-size: 5rem;
 }
@@ -277,7 +281,7 @@ strong {
   color: #fff;
 }
 .fa-facebook:hover {
-  color: whitesmoke;
+ color: var(--hover-footer);
 }
 #gSlideDesc_0,
 #gSlideDesc_1,
