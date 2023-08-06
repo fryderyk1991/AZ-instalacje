@@ -1,4 +1,4 @@
-.carousel-item {
+/* .carousel-item {
   height: calc(100vh - 80px);
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,6 +47,13 @@
   opacity: 0.8;
   font-size: 4rem;
   text-transform: uppercase;
+} */
+.hero-main {
+  width: 100%;
+}
+.hero-main__image {
+  max-width: 100%;
+  object-fit: cover;
 }
 .about__description {
   margin-top: 2rem;
