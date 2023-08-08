@@ -21,6 +21,7 @@ const firstLi = mobileNavList[0].addEventListener("click", function () {
     elem.classList.toggle("open");
   });
   mobileNav.classList.toggle("open");
+  menuBtnLines.forEach((line) => line.classList.toggle("open"));
 });
 
 
