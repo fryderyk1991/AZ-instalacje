@@ -47,14 +47,14 @@ body {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: -1;
-  transition: all 300ms ease-in;
+  transition: opacity 300ms ease-in;
 }
 .modal__cookies.show {
   visibility: visible;
   opacity: 1;
   transform: translate(-50%, -50%);
   z-index: 100;
-  transition: all 300ms ease-in;
+  transition: opacity 300ms ease-in;
 }
 .modal__button--button {
   padding: 10px 0;
