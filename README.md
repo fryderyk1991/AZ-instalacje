@@ -1,6 +1,6 @@
 ### Az-instalacje 
 
-My First Commercial Project !😮
+My First Commercial Project! 😮
 This is a simple website (MPA and RWD) 
 
 ### Technologies 
@@ -10,9 +10,9 @@ This is a simple website (MPA and RWD)
 - [Glightbox](https://biati-digital.github.io/glightbox/) 
 
 #### What I Learned During This Project:
-- I gained more confidence in my BEM skills, before this project. I hadn't used BEM
-- more confident in working with real clients
-- more patience :P 
+- how to properly use BEM 
+- to be more confident in working with real clients and their requirements
+- to be more patient :P 
 
 Live => https://instalacje-az.pl/ 
 
