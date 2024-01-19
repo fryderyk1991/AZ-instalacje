@@ -1,7 +1,7 @@
 ### Az-instalacje 
 
-First comercial project !😮
-Simple website (MPA and RWD) 
+My First Commercial Project !😮
+This is a simple website (MPA and RWD) 
 
 ### Technologies 
 - HTML
